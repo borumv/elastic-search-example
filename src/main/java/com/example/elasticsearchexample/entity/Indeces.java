@@ -1,7 +1,5 @@
 package com.example.elasticsearchexample.entity;
 
-import org.springframework.data.convert.WritingConverter;
-
 public enum Indeces {
     COMMENT_INDEX("comment-index"),
     POST_INDEX("post-index"),
