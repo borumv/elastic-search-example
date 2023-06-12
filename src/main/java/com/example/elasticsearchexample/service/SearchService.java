@@ -23,7 +23,6 @@ import java.util.stream.Stream;
 public class SearchService {
     private final ElasticsearchClient client;
     private final Map<String, HighlightField> fieldsHighlight = new HashMap<>();
-
     public SearchService(ElasticsearchClient client) {
         this.client = client;
         fieldsHighlight.put("author_nickname", HighlightField.of(builder -> builder.fragmentSize(150)));

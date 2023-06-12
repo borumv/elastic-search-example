@@ -19,7 +19,7 @@ public class SearchController {
     }
 
     @GetMapping()
-    public List<SearchResponseDTO> getProduct(@RequestParam Indeces[] indeces, @RequestParam(value = "q", required = false) String query) throws IOException {
+    public List<SearchResponseDTO> search(@RequestParam Indeces[] indeces, @RequestParam(value = "q", required = false) String query) throws IOException {
         return service.search(indeces, query);
     }
 

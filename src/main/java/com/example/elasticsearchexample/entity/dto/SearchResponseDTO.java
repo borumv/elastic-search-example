@@ -8,11 +8,11 @@ import java.util.List;
 import java.util.Map;
 @Data
 public class SearchResponseDTO {
-    String index;
-    String id;
-    Double score;
-    ObjectNode source;
-    Map<String, List<String>> highlights;
+    private String index;
+    private String id;
+    private Double score;
+    private ObjectNode source;
+    private Map<String, List<String>> highlights;
     public static SearchResponseDTO toModel(Hit<?> hit) {
         SearchResponseDTO searchResponseDTO = new SearchResponseDTO();
         searchResponseDTO.setId(hit.id());
