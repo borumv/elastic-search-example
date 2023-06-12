@@ -16,4 +16,8 @@ If you have problem with mem-limit, you can solve it using command `sudo sysctl 
 - For interaction after starting the application, you can look at the api through the swagger with url `http://localhost:8080/swagger-ui/index.html`
 
 
+https://github.com/borumv/elastic-search-example/assets/86356857/34a8fd21-c40a-422a-9e0d-bd7fa60cee27
+
+
+
 
